@@ -1,3 +1,8 @@
 os: linux
-
+env:
   STR1: AKIAI6E66XXXX4SKIJWA
+  STR2: AKIAI6E66XXXX4SKIJWA
+script:
+  - echo $STR1
+  - echo $STR2
+  - exit 1
